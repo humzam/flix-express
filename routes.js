@@ -39,8 +39,9 @@ let port = process.env.PORT;
 if (port == null || port == "") {
     port = 3000;
 }
+
 app.listen(port, () => {
     const url = 'https://flix-express.herokuapp.com/users?email=humzam99%40gmail.com&password=ghi%40678'
-    console.log('Go to ' + url + ' so you can test the connection and see some data!');
+    console.log('Go to ' + url + ' so you can test the connection and see some real data!');
 })
 
